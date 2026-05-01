@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #1e2b34;
+  color: #0f172a;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background: linear-gradient(90deg, #38bdf8, #a78bfa);
+  border-top: 2px solid rgba(255,255,255,0.6);
+  border-bottom: 2px solid rgba(255,255,255,0.6);
+}
+
+.NavTitle {
+  font-family: 'Segoe UI', sans-serif;
+  text-decoration: overline underline;
+  text-underline-offset: 18px;
+  padding: 10px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TopBox {
+  width: 80%;
+  margin: 20px auto 0 auto;
+
+  text-align: center;
+  background: white;
+  color: #0f172a;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.Col1 {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  background: #e0f2fe;
+  color: #0f172a;
+  border-radius: 0 0 0 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.left {
+  flex: 2;
+  padding: 20px;
+  text-align: center;
+  background: #f1f5f9;
+  color: #0f172a;
+  border-radius: 0 0 16px 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.Myprojects,
+.Ex,
+.p4,
+.cv,
+.Header_Title {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.p1,
+.p2,
+.p3,
+.p5 {
+  text-align: center;
+  color: #334155;
+}
